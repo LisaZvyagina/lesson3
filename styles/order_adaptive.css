@@ -1,0 +1,23 @@
+#map {
+    background-image: url("../images/order-bg.png");
+    background-size: cover;
+    position: fixed;
+    inset: 0;
+}
+
+@media (max-width: 767px) {
+    .main {
+        left: 10px;
+        right: 10px;
+        top: 50%;
+        bottom: 12px;
+        width: auto;
+        max-width: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .main-sizes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
